@@ -1,20 +1,20 @@
 ﻿using S_Efe_BranchPR;
 
-Console.WriteLine("Lütfen Bir Sayı Giriniz ...");
+Console.WriteLine("Please Enter a Number...");
 int UserNumber = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Tahmin Edilecek Sayı ?");
+Console.WriteLine("Number to Predict?");
 int CatchNumber = Convert.ToInt32(Console.ReadLine());
 
 if (UserNumber == CatchNumber)
 {
-    Console.WriteLine("Sonuç Doğru İşte Bilgileriniz\n");
+    Console.WriteLine("The Result is Correct Here is Your Information\n");
     XMethodClass xMethodClass = new XMethodClass();
     xMethodClass.GetUserData();
 }
 else
 {
-    Console.WriteLine("Tahminin Yanlış !");
+    Console.WriteLine("your guess is wrong!");
     FalseMethod falseMethod = new FalseMethod();    
     falseMethod.GetData();
 }
