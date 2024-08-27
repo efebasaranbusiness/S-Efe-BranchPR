@@ -7,7 +7,6 @@ int CatchNumber = Convert.ToInt32(Console.ReadLine());
 if (UserNumber == CatchNumber)
 {
     Console.WriteLine("Sonuç Doğru");
-
 }
 else
 {
