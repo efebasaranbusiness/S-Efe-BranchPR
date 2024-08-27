@@ -15,9 +15,9 @@ namespace S_Efe_BranchPR
             DateTime dateTime = DateTime.Now;
             Console.WriteLine($"İşlem Başarısız ");
             Console.WriteLine(
-                $"{Status}"+
-                $"{data}"+
-                $"{dateTime}"
+                $"\n{Status}"+
+                $"\n{data}"+
+                $"\n{dateTime}"
                 );
         }
     }
