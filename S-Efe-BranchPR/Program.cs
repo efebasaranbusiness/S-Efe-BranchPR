@@ -1,2 +1,3 @@
-﻿
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Lütfen Bir Sayı Giriniz");
+string UserNumber = Console.ReadLine();
+
