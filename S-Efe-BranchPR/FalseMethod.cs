@@ -13,7 +13,7 @@ namespace S_Efe_BranchPR
             bool Status = false;
             string data = null;
             DateTime dateTime = DateTime.Now;
-            Console.WriteLine($"İşlem Başarısız ");
+            Console.WriteLine($"İşlem Başarısız.\n");
             Console.WriteLine(
                 $"\n{Status}"+
                 $"\n{data}"+

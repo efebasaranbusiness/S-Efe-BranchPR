@@ -13,7 +13,7 @@ namespace S_Efe_BranchPR
             string UserName = "Efe";
             string Mail = "efe.basaran@sekompos.com";
             string Phone = "05413659874";
-            Console.WriteLine($"İsminiz: {UserName}");
+            Console.WriteLine($"\nİsminiz: {UserName}");
             Console.WriteLine($"E-Posta Adresiniz : {Mail}");
             Console.WriteLine($"Telefon Numaranız: {Phone}");
         }
