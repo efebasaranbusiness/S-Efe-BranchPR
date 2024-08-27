@@ -15,4 +15,6 @@ if (UserNumber == CatchNumber)
 else
 {
     Console.WriteLine("Tahminin Yanlış !");
+    FalseMethod falseMethod = new FalseMethod();    
+    falseMethod.GetData();
 }
